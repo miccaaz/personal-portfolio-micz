@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
   name: 'Miguel',
-  title: 'BackEnd Developer',
+  title: 'FullStack Developer',
   email: 'mclcastroloureiro@gmail.com',
   location: 'São Paulo, SP',
   tagline: '',
@@ -21,8 +21,8 @@ export const SOCIAL_LINKS = {
 export const STATS = [
   { label: 'Anos de Expêriencia', value: '1+'},
   { label: 'Projetos Completos', value: '10+'},
-  { label: 'Tecnologias', value: '10+'},
-  { label: 'Commits de Códigos', value: 'any'}
+  { label: 'Tecnologias Aprendidas', value: '15+'},
+  { label: 'Commits de Códigos', value: '100+'}
 ]
 
 export const NAV_LINKS = [
