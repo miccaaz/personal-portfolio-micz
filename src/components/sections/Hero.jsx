@@ -1,4 +1,5 @@
-import React from 'react'
+import { useStat } from 'react'
+import { ChevronDown, Star } from 'lucide-react'
 
 const Hero = () => {
   return (
