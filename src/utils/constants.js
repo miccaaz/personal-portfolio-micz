@@ -13,9 +13,9 @@ export const PERSONAL_INFO = {
 }
 
 export const SOCIAL_LINKS = {
-  github: '',
-  linkedin: '',
-  whatsapp: ''
+  github: 'https://github.com/miccaaz',
+  linkedin: 'https://www.linkedin.com/in/miguel-castro-loureiro/',
+  whatsapp: '+55 (11) 953184611'
 }
 
 export const STATS = [
