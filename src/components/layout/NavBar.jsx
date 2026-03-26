@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Code, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { NAV_LINKS, PERSONAL_INFO } from '../../utils/constants'
 import { scrollToSection, useScrollSpy } from '../../hooks/useScrollSpy';
 
@@ -32,7 +32,7 @@ const NavBar = () => {
         <div className='flex items-center justify-between'>
           {/* Logo */}
           <div className='flex items-center gap-4'>
-            <Code className='w-6 h-6 text-primary' />
+            <img src="../../images/logo.png" className='w-8 h-8 text-primary hover:scale-120' draggable={false} />
 
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
