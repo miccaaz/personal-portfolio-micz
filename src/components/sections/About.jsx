@@ -153,6 +153,20 @@ const About = () => {
             </div>
           </FadeIn>
         </div>
+
+        {/* Skills Grid Section */}
+        <FadeIn delay={500}>
+          <div className=''>
+            <div className=''>
+              <h3 className=''>
+                Habididades técnicas e ferramentas que domino
+              </h3>
+              <p className=''>
+
+              </p>
+            </div>
+          </div>
+        </FadeIn>
       </div>
     </section>
   )

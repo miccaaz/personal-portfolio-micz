@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown, Star } from 'lucide-react';
-import { SiDotnet, SiReact, SiTailwindcss, SiPostgresql, SiMysql, SiGit } from 'react-icons/si';
+import { SiDotnet, SiReact, SiTailwindcss, SiPostgresql, SiMysql } from 'react-icons/si';
 import { PERSONAL_INFO, STATS } from '../../utils/constants';
 import { scrollToSection } from '../../hooks/useScrollSpy';
 import FadeIn from '../animations/FadeIn';
@@ -101,10 +101,6 @@ const Hero = () => {
 
                           <div className='w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300'>
                             <SiMysql className='w-full h-full text-primary'/>
-                          </div>
-
-                          <div className='w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300'>
-                            <SiGit className='w-full h-full text-primary'/>
                           </div>
                         </div>
                       </FadeIn> 
