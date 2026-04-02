@@ -29,7 +29,7 @@ export const skills = [
   },
   {
     id: 5,
-    name: 'Git e GitHUb',
+    name: 'Git e Github',
     icon: 'GitBranch',
     level: 'Avançado',
     experience: '+2 anos'

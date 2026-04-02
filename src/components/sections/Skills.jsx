@@ -22,7 +22,7 @@ const Skills = () => {
       skills.find(skill => skill.name === 'Css')
     ].filter(Boolean),
     'Ferramentas e Outros': [
-      skills.find(skill => skill.name === 'Git e GitHUb'),
+      skills.find(skill => skill.name === 'Git e Github'),
       skills.find(skill => skill.name === 'Figma'),
       skills.find(skill => skill.name === 'Canva'),
       skills.find(skill => skill.name === 'MS PowerPoint'),

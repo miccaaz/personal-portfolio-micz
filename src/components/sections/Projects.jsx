@@ -131,7 +131,7 @@ const Projects = () => {
                 <button
                   onClick={nextSlide}
                   disabled={currentIndex >= filteredProjects.length - 3}
-                  className='flex absolute right-0 top-1/2 -translate-y-1/2 -translate-x-2 lg:-translate-x-4 items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300 disable-opacity-50 disabled:cursor-not-allowed z-10'
+                  className='flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 lg:translate-x-4 items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300 disable-opacity-50 disabled:cursor-not-allowed z-10'
                   aria-label='Next projects'
                 >
                   <ChevronRight className='w-6 h-6 text-white' />
