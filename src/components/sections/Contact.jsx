@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Mail, MapPin, Linkedin, Github, Send, MessageSquare } from 'lucide-react'
+import { FaWhatsapp } from 'react-icons/fa';
 import { PERSONAL_INFO, SOCIAL_LINKS } from '../../utils/constants'
 import FadeIn from '../animations/FadeIn'
-import { FaWhatsapp } from 'react-icons/fa';
 
 function Contact() {
   const [formData, setFormData] = useState({
