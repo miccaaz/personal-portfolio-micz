@@ -63,7 +63,7 @@ const NavBar = () => {
               onClick={() => handleNavClick('contact')}
               className='px-7 py-3.5 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300'
             >
-              Me Contrate
+              Fale comigo
             </button>
           </div>
 
@@ -96,7 +96,7 @@ const NavBar = () => {
               onClick={() => handleNavClick('contact')}
               className='w-full px-7 py-3.5 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300 mt-2'
             >
-              Me Contrate
+              Fale comigo
             </button>
         </div>
       </div>
