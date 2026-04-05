@@ -3,6 +3,7 @@ import { projects, categories } from '../../data/projects';
 import { Briefcase, Sparkles, Target, Globe, Palette, Zap, ChevronLeft, ChevronRight, Section } from 'lucide-react';
 import ProjectCard from '../ui/ProjectCard';
 import FadeIn from '../animations/FadeIn';
+import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 
 const Projects = () => {
 
@@ -52,6 +53,8 @@ const Projects = () => {
 
   return (
     <section id='projects' className='relative py-20 bg-black overflow-hidden'>
+      <RadialGradientBackground variant='projects'/>
+
       <div className='absolute inset-0 overflow-hidden'>
         <div className='absolute top-1/3 right-0 w-96 h-96 bg-primary/20 opacity-20 rounded-full blur-3xl' />
         <div className='absolute bottom-1/3 left-0 w-96 h-96 bg-primary/20 opacity-20 rounded-full blur-3xl' />

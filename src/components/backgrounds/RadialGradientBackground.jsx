@@ -1,4 +1,5 @@
 import React from 'react';
+import { projects } from '../../data/projects';
 
 const RadialGradientBackground = ({variant='hero', gradients=[]}) => {
   const variants = {
@@ -46,6 +47,47 @@ const RadialGradientBackground = ({variant='hero', gradients=[]}) => {
     about: [
       {
         position: 'bottom-0 left-[75%]',
+        size: 'w-[700px] h-[700px]',
+        colors: [
+          { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.45)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.5)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.45)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'}
+        ],
+        blur: '0px',
+        opacity: 0.5
+      }
+    ],
+    projects: [
+      {
+        position: 'bottom-0 left-[-20%]',
+        size: 'w-[700px] h-[700px]',
+        colors: [
+          { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.45)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.5)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.45)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'}
+        ],
+        blur: '0px',
+        opacity: 0.5
+      },
+      {
+        position: 'bottom-0 left-[75%]',
+        size: 'w-[500px] h-[500px]',
+        colors: [
+          { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.45)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.5)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.45)', stop: '100%'},
+          { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'}
+        ],
+        blur: '0px',
+        opacity: 0.5
+      },
+      {
+        position: 'bottom-[10%] left-[65%]',
         size: 'w-[700px] h-[700px]',
         colors: [
           { color: 'rgba(255, 141, 105, 0.25)', stop: '100%'},

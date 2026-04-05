@@ -1,5 +1,5 @@
 export const PERSONAL_INFO = {
-  name: 'Miguel',
+  name: 'Miguel Castro Loureiro',
   title: 'FullStack Developer',
   email: 'mclcastroloureiro@gmail.com',
   location: 'São Paulo, SP',
