@@ -43,7 +43,7 @@ const NavBar = () => {
             </button>
           </div>
 
-          {/* Desktop Nav */}
+          {/* Nav Desktop */}
           <nav className='hidden md:flex items-center gap-7'>
             {NAV_LINKS.map((link) => (
               <button
@@ -57,7 +57,7 @@ const NavBar = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
+          {/* CTA Button 
           <div className='hidden md:flex items-center gap-2'>
             <button
               onClick={() => handleNavClick('contact')}
@@ -66,8 +66,9 @@ const NavBar = () => {
               Fale comigo
             </button>
           </div>
+          */}
 
-          {/* Mobile Menu Button */}
+          {/* Botão Menu Mobile */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className='md:hidden p-4 text-white hover:text-white/80 transition-colors'
@@ -79,7 +80,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Menu Mobile */}
       <div className={`md:hidden trasition-all duration-300 overflow-hidden ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className='bg-black/95 backdrop-blur-lg border-t border-white/10 px-5 py-6 space-y-3'>
             {NAV_LINKS.map((link) => (

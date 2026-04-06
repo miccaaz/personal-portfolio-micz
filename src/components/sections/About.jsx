@@ -1,9 +1,6 @@
-import React, {useState, useEffect }from 'react'
+import React from 'react'
 import { Download, Code2, Sparkles } from 'lucide-react'
-import { SiDotnet, SiReact, SiJavascript, SiTypescript, SiTailwindcss, SiPostgresql, SiMysql, SiGit, SiGithub } from 'react-icons/si';
-import { TbBrandCSharp } from 'react-icons/tb';
-import { DiVisualstudio } from "react-icons/di";
-import { VscVscode } from "react-icons/vsc";
+import { SiDotnet, SiReact, SiPostgresql, SiGit } from 'react-icons/si';
 import { ABOUT_STATS, PERSONAL_INFO } from '../../utils/constants';
 import FadeIn from '../animations/FadeIn';
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
@@ -13,19 +10,17 @@ const About = () => {
   const skills = [
     { name: '.Net', icon: SiDotnet, color: '#000000' },
     { name: 'React.js', icon: SiReact, color: '#000000' },
-    { name: 'TailWindCss', icon: SiTailwindcss, color: '#000000' },
     { name: 'PostgreSql', icon: SiPostgresql, color: '#000000' },
-    { name: 'MySql', icon: SiMysql, color: '#000000' },
-    { name: 'Git e GitHub', icon: SiGit, color: '#000000' },
+    { name: 'Git e GitHub', icon: SiGit, color: '#000000' }
   ]
   return (
     <section id='about' className='relative py-15 bg-black overflow-hidden'>
       <RadialGradientBackground variant='about'/>
 
       <div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        {/* Main Grid */}
+        {/* Grid Main */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-10'>
-          {/* Left Column - Content */}
+          {/* Coluna Esquerda - Conteúdo */}
           <div className='flex flex-col gap-12'>
             <div className='flex flex-col gap-8'>
               <FadeIn delay={60}>
@@ -82,7 +77,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Right Column - Info Grid */}
+          {/* Coluna Direita - Grid Info */}
           <FadeIn delay={200}>
             <div className='grid grid-cols-2 gap-4'>
               <div className='col-span-2 relative group'>
@@ -148,7 +143,7 @@ const About = () => {
           </FadeIn>
         </div>
 
-        {/* Skills Grid Section */}
+        {/* Seção Skills Grid */}
         <FadeIn delay={500}>
           <div className='flex flex-col items-center gap-8'>
             <div className='text-center'>
@@ -160,7 +155,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 w-full max-w-4xl'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-4xl'>
               {skills.map((skill, index) => (
                 <div
                   key={index}

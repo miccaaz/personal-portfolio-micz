@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { projects, categories } from '../../data/projects';
-import { Briefcase, Sparkles, Target, Globe, Palette, Zap, ChevronLeft, ChevronRight, Section } from 'lucide-react';
+import { Briefcase, Target, Globe, Palette, Zap, ChevronLeft, ChevronRight } from 'lucide-react';
 import ProjectCard from '../ui/ProjectCard';
 import FadeIn from '../animations/FadeIn';
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground';

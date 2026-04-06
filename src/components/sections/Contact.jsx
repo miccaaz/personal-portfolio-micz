@@ -141,7 +141,7 @@ function Contact() {
             </div>
           </FadeIn>
           
-          {/* Contact Info */}
+          {/* Informações para Contato */}
           <FadeIn delay={200}>
             <div className='space-y-8'>
               <div>

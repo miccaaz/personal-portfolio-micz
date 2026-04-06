@@ -75,7 +75,7 @@ const Skills = () => {
           </div>
         </FadeIn>
 
-        {/* Skills Categories */}
+        {/* Categorias Skills */}
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
           {Object.entries(skillCategories).map(([category, categorySkills], categoryIndex) => 
             <FadeIn key={category} delay={categoryIndex * 100}>
@@ -85,7 +85,7 @@ const Skills = () => {
                   <h3 className='text-xl font-medium text-white'>{category}</h3>
                 </div>
 
-                {/* Skills List */}
+                {/* Lista Skills */}
                 <div className='space-y-5'>
                   {categorySkills.map((skill, skillIndex) => {
                     const IconComponent = Icons[skill.icon] || Icons.Code2
