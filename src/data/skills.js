@@ -8,7 +8,7 @@ export const skills = [
   },
   {
     id: 2,
-    name: 'React.js',
+    name: 'React',
     icon: 'Code2',
     level: 'Iniciante',
     experience: '+6 meses'
@@ -65,21 +65,21 @@ export const skills = [
   {
     id: 10,
     name: 'MS Excel',
-    icon: 'Code2',
+    icon: 'Grid2x2',
     level: 'Intermediário',
     experience: '+3 anos'
   },
   {
     id: 11,
     name: 'MS Word',
-    icon: 'Code2',
+    icon: 'Grid2x2',
     level: 'Intermediário',
     experience: '+3 anos'
   },
   {
     id: 12,
     name: 'MS PowerPoint',
-    icon: 'Code2',
+    icon: 'Grid2x2',
     level: 'Intermediário',
     experience: '+4 anos'
   },
@@ -93,29 +93,36 @@ export const skills = [
   {
     id: 14,
     name: 'Html',
-    icon: 'Code2',
+    icon: 'AppWindow',
     level: 'Intermediário',
     experience: '+3 anos'
   },
   {
     id: 15,
     name: 'Css',
-    icon: 'Code2',
+    icon: 'AppWindow',
     level: 'Intermediário',
     experience: '+3 anos'
   },
   {
     id: 16,
     name: 'Figma',
-    icon: 'Code2',
+    icon: 'Palette',
     level: 'Intermediário',
     experience: '+1 anos'
   },
   {
     id: 17,
-    name: 'Canvas',
-    icon: 'Code2',
+    name: 'Canva',
+    icon: 'Palette',
     level: 'Avançado',
     experience: '+4 anos'
+  },
+  {
+    id: 18,
+    name: 'React Native',
+    icon: 'Smartphone',
+    level: 'Iniciante',
+    experience: '+2 meses'
   },
 ]

@@ -15,7 +15,8 @@ const Skills = () => {
       skills.find(skill => skill.name === 'MongoDb')
     ].filter(Boolean),
     'Frontend': [
-      skills.find(skill => skill.name === 'React.js'),
+      skills.find(skill => skill.name === 'React'),
+      skills.find(skill => skill.name === 'React Native'),
       skills.find(skill => skill.name === 'Tailwind'),
       skills.find(skill => skill.name === 'Javascript'),
       skills.find(skill => skill.name === 'Html'),
@@ -51,7 +52,7 @@ const Skills = () => {
   }
 
   return (
-    <section id='skills' className='relative py-20 bg-black overflow-hidden'>
+    <section id='skills' className='relative py-15 bg-black overflow-hidden'>
       {/* Animated Background Gradient */}
       <div className='absolute inset-0 overflow-hidden'>
         <div className='absolute top-1/4 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl opacity-50' />

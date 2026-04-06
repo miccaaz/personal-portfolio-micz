@@ -15,14 +15,14 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
   github: 'https://github.com/miccaaz',
   linkedin: 'https://www.linkedin.com/in/miguel-castro-loureiro/',
-  whatsapp: '+55 (11) 953184611'
+  whatsapp: 'https://wa.me/5511953184611'
 }
 
 export const STATS = [
-  { label: 'Anos de Expêriencia', value: '2+'},
+  { label: 'Anos de Expêriencia Informal', value: '1+'},
   { label: 'Projetos Completos', value: '10+'},
   { label: 'Tecnologias Aprendidas', value: '15+'},
-  { label: 'Commits de Códigos', value: '100+'}
+  { label: 'Commits de Códigos no GitHub', value: '80+'}
 ]
 
 export const ABOUT_STATS = [

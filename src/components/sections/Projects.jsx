@@ -52,7 +52,7 @@ const Projects = () => {
   }
 
   return (
-    <section id='projects' className='relative py-20 bg-black overflow-hidden'>
+    <section id='projects' className='relative py-15 bg-black overflow-hidden'>
       <RadialGradientBackground variant='projects'/>
 
       <div className='absolute inset-0 overflow-hidden'>
