@@ -20,7 +20,7 @@ const ProjectCard = ({project}) => {
               target='_blank' 
               rel='noopener noreferrer' 
               className='p-2.5 bg-white/10 backdrop-blur-md rounded-lg border border-white-20 hover:bg-primary/30 hover:border-primary/50 transition-all duration-300 hover:scale-110'
-              title='View Demo'
+              title='Ver Demonstração'
             >
               <ExternalLink className='w-4 h-4 text-white' />
             </a>
@@ -31,7 +31,7 @@ const ProjectCard = ({project}) => {
               target='_blank' 
               rel='noopener noreferrer' 
               className='p-2.5 bg-white/10 backdrop-blur-md rounded-lg border border-white-20 hover:bg-primary/30 hover:border-primary/50 transition-all duration-300 hover:scale-110'
-              title='View Code'
+              title='Ver Código'
             >
               <Github className='w-4 h-4 text-white' />
             </a>

@@ -26,8 +26,8 @@ const Hero = () => {
             </FadeIn>
 
             <FadeIn delay={100}>
-              <h1 className='text-4xl md:text-5xl lg:text-6xl font-normal text-white mb-6 leading-tight'>
-                Desenvolvedor .NET e React
+              <h1 className='text-4xl md:text-5xl lg:text-6xl font-normal text-white mb-6 leading-tight lg:max-w-135'>
+                Desenvolvedor .Net e React
               </h1>
             </FadeIn>
 
