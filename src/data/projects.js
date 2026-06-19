@@ -1,13 +1,13 @@
 export const projects = [
   {
     id: 1,
-    title: 'DARIUS: Organizador de Coleção',
-    description: 'Darius é um aplicativo fullstack para organizar coleções pessoais, permitindo avaliar, categorizar e acompanhar o status de cada item.',
-    image: '/images/projects/placeholder.png',
-    category: 'FullStack',
-    technologies: ['.NET Core', 'React', 'Entity Framework', 'Typescript', 'TailwindCSS'],
-    demoUrl: '',
-    githubUrl: 'https://github.com/miccaaz/Darius'
+    title: 'Monster Landing Page',
+    description: 'Uma Landing Page simples para a marca de energéticos Monster Energy feita com React, contem um carrossel interativo com as latas da marca',
+    image: '/images/projects/monster.png',
+    category: 'Web Apps',
+    technologies: ['React', 'Javascript', 'TailwindCSS'],
+    demoUrl: 'https://monster-energy-bice.vercel.app',
+    githubUrl: 'https://github.com/miccaaz/Monster-Energy'
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ export const projects = [
     image: '/images/projects/number.png',
     category: 'Web Apps',
     technologies: ['Javascript', 'HTML', 'CSS'],
-    demoUrl: 'https://numero-secreto-jogo-beta.vercel.app',
+    demoUrl: '',
     githubUrl: 'https://github.com/miccaaz/numero-secreto-jogo'
   },
   {

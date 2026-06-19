@@ -6,9 +6,8 @@ export const PERSONAL_INFO = {
   tagline: '',
   resume: '/curriculo.pdf',
   bio : [
-    'Sou um desenvolvedor BackEnd com .NET aprendendo FullStack com React, buscando pelo primeiro emprego na área. Posso não possuir experiência formal, mas acredito que agrego valor em cada projeto realizado.',
-    'Minha expêriencia em .NET/C#, React e outras tecnologias se baseiam em projetos pessoais desenvolvidos por mim ou a partir de cursos realizados.',
-    'Estou aprendendo FrontEnd básico com React e TailWindCss, este portifolio é o comprovação disso.'
+    'Sou um desenvolvedor FrontEnd com React e BackEnd com .NET, buscando pelo primeiro emprego na área. Posso não possuir experiência formal, mas acredito que agrego valor em cada projeto realizado.',
+    'Minha expêriencia em .NET/C#, React e outras tecnologias se baseiam em projetos pessoais desenvolvidos por mim ou a partir de cursos realizados.'
   ]
 }
 

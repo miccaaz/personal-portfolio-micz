@@ -27,7 +27,7 @@ const Hero = () => {
 
             <FadeIn delay={100}>
               <h1 className='text-4xl md:text-5xl lg:text-6xl font-normal text-white mb-6 leading-tight lg:max-w-135'>
-                Desenvolvedor .Net e React
+                Desenvolvedor React e .NET
               </h1>
             </FadeIn>
 
@@ -74,7 +74,7 @@ const Hero = () => {
 
                     {/* Container Imagem  */}
                     <div className='relative rounded-2xl overflow-hidden m-px h-[calc(100%-2px)]'>
-                      <img src="../../images/developer-image.png" alt="Desenvolvedor" 
+                      <img src="../../images/developer-image.jpeg" alt="Desenvolvedor" 
                         className='w-full h-full object-cover' draggable={false}
                       />
                     </div>

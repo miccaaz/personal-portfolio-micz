@@ -14,7 +14,6 @@ const Projects = () => {
   const filteredProjects = activeCategory === 'All'
     ? projects : projects.filter(project => project.category === activeCategory);
 
-  // Reset carousel when category changes
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
     setCurrentIndex(0);
@@ -43,7 +42,6 @@ const Projects = () => {
     scrollToIndex(newIndex);
   }
 
-  // Categoru icons mapping
   const categoryIcons = {
     'All': Target,
     'BackEnd APIs': Zap,
