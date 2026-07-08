@@ -5,7 +5,8 @@ import { scrollToSection, useScrollSpy } from '../../hooks/useScrollSpy';
 
 const NavBar = () => {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
-  const [ isScrolled, setIsScrolled ] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+    
   const activeSection = useScrollSpy(NAV_LINKS.map(link => link.id));
 
   useEffect(() => {
