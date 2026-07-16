@@ -32,6 +32,7 @@ export const ABOUT_STATS = [
 
 export const NAV_LINKS = [
   { id: 'about', label: 'Sobre'},
+  { id: 'academic', label: 'Formação' },
   { id: 'skills', label: 'Habilidades'},
   { id: 'projects', label: 'Projetos'},
   { id: 'contact', label: 'Contatos'}
